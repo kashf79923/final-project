@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body
+{
+    background-image: url("images/signup.jpg");
+}
+
+/* ---------- NAVAR ---------- */
+
+.navbar-style
+{
+    height: 40px;
+    justify-content: center;
+    align-items: center;    
+    background-color: #6b97b4;
+}
+
+li a
+{
+    color:#000000;
+    position: relative;
+    overflow: hidden;
+    border:none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+/* ---------- BODY ---------- */
+
+img
+{
+    height: 30%;
+    width: 30%;
+}
+
+li a:hover
+{
+    color: #000000;
+}
+
+li a:focus
+{
+    color: #000000;
+    
+}
+
+li a:active
+{
+    color: #000000;
+}
+
+label
+{
+    padding-top: 30px;
+    padding: 20px;
+}
+
+input
+{
+    margin-right: 20px;
+}
+
+.row
+{
+    background-color:rgba(240, 248, 255, 0.658);
+    border-radius: 1em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-top:7em;
+    text-align: left;
+}
+
+input[id="username"]
+{
+    margin-left: 2em;
+}
+
+input[id="email"]
+{
+    margin-left: 4em;
+}
+
+input[id="password"]
+{
+    margin-left: 2em;
+}
+
+input[id="repeat"]
+{
+    margin-left: 3em;
+}
+
+input[id="male"]
+{
+    margin-left: 10em;
+}
+
+.btn
+{
+    background-color: rgb(101, 170, 235);
+    color: black;
+    width: 350px;
+}
+form
+{
+    display: table;
+    margin-left: 30em;
+}
+
+p
+{
+    display: table-row;
+}
+
+label
+{
+    display: table-cell;
+}
+
+input
+{
+    display: table-cell;
+}

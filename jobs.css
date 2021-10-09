@@ -1,0 +1,90 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* ---------- NAVBAR ---------- */
+
+.navbar
+{
+    background-color: rgb(149, 231, 213);
+}
+
+li a
+{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ---------- BODY ---------- */
+
+.form-control
+{
+    width: 3em;
+}
+
+input[type=text]
+{
+    width: 100%;
+    padding: 12px 40px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.search
+{
+    margin-left: 20% !important;
+    margin-top: 5em;
+    position: relative;
+}
+
+.search i
+{
+    position: absolute;
+    left: 13px;
+    top: 18px;
+    color: gray;
+}
+
+.row1 i
+{
+    color: rgb(5, 53, 42);
+}
+
+.text
+{
+    margin-left: 3em;
+    margin-top: 1em;
+    padding-left: 1em;
+    color: rgb(23, 71, 57);
+}
+
+.row1
+{
+    margin-top: 5em;
+    background-color:rgb(240, 255, 250);
+    padding: 1em 1em 0em;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(236, 245, 242);
+}
+
+.row2
+{
+    margin-bottom: 5em;
+    margin-top: 5em;
+    background-color:rgb(240, 255, 250);
+    padding: 1em 1em 0em;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(236, 245, 242);
+}
+
+.row3
+{
+    margin-bottom: 2em;
+    text-align: right;
+}
